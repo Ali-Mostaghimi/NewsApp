@@ -20,7 +20,7 @@
         />
 
     <TextView
-        android:id="@+id/testViewTitle"
+        android:id="@+id/textViewTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
@@ -35,7 +35,7 @@
         />
 
     <TextView
-        android:id="@+id/testViewDescription"
+        android:id="@+id/textViewDescription"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
@@ -45,12 +45,12 @@
         android:textColor="@android:color/darker_gray"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/testViewTitle"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle"
         tools:text="Description"
         />
 
     <TextView
-        android:id="@+id/testViewSource"
+        android:id="@+id/textViewSource"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
@@ -59,7 +59,7 @@
         android:textColor="@android:color/darker_gray"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/testViewDescription"
+        app:layout_constraintTop_toBottomOf="@id/textViewDescription"
         tools:text="Source"
         />
 
