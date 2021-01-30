@@ -15,12 +15,13 @@ import com.alimostaghimi.newsapp.data.model.News
 import com.alimostaghimi.newsapp.ui.base.ViewModelFactory
 import com.alimostaghimi.newsapp.ui.newslist.adapter.NewsListAdapter
 import com.alimostaghimi.newsapp.ui.newslist.viewmodel.NewsListViewModel
+import com.alimostaghimi.newsapp.ui.newslist.viewmodel.ParallelNewsListViewModel
 import com.alimostaghimi.newsapp.ui.newslist.viewmodel.SeriesNewsListViewModel
 import com.alimostaghimi.newsapp.utils.Status
 import kotlinx.android.synthetic.main.activity_news_list.*
 
 class NewsListActivity : AppCompatActivity() {
-    private lateinit var newsListViewModel: SeriesNewsListViewModel
+    private lateinit var newsListViewModel: ParallelNewsListViewModel
     private lateinit var adapter: NewsListAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -75,6 +76,6 @@ class NewsListActivity : AppCompatActivity() {
         newsListViewModel = ViewModelProvider(
                 this,
                 ViewModelFactory(ApiHelperImpl(RetrofitBuilder.apiService))
-        ).get(SeriesNewsListViewModel::class.java)
+        ).get(ParallelNewsListViewModel::class.java)
     }
 }
