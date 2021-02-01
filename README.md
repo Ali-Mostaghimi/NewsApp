@@ -6,6 +6,8 @@ The main goal of this app is to practice the kotlin coroutines.
 <h2 id="Outputs">Outputs</h2>
 <p><img height= "400" src="https://user-images.githubusercontent.com/52744015/106363823-27b28600-6340-11eb-932d-6302a14b1875.png" />
 <img height= "400" src="https://user-images.githubusercontent.com/52744015/106363925-c343f680-6340-11eb-913c-42a515a694a4.png" />
+<img height= "400" src="https://user-images.githubusercontent.com/52744015/106428763-b9c0a880-647e-11eb-9516-5d15f67e7aca.gif" alt="Gif1" />
+<img height= "400" src="https://user-images.githubusercontent.com/52744015/106428839-d2c95980-647e-11eb-8daf-65904189b672.gif" allt="GIf2"/>
 
 ## Libraries and tools 🛠
 <li><a href="https://kotlinlang.org/docs/reference/coroutines-overview.html">Kotlin Coroutines</a></li>
